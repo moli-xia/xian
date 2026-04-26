@@ -1,58 +1,57 @@
-# Xian (仙) - WebGL Xianxia Cultivation Game
+# 仙 (Xian) - WebGL 3D 仙侠修仙游戏
 
-A 3D Xianxia (Immortal Cultivation) game built with **TypeScript** and **Three.js**, running in the browser.
+一款使用 **TypeScript** 和 **Three.js** 构建的 3D 仙侠修仙游戏，直接在浏览器中运行。
 
-## Features
+## 特性
 
-- **3D Graphics:** Powered by Three.js with custom shaders, bloom effects, and skeletal animations.
-- **Xianxia Theme:** Immerse yourself in a world of immortal cultivators, flying swords, and magical artifacts.
-- **Combat System:** Real-time combat with different cultivators, health bars, and skills.
-- **Skills & Orbs:** Collect various orbs (Blade, Speed, Lightning, Dash, Wall, Heal) to enhance your power and unlock active skills.
-- **Audio:** Immersive background music and sound effects.
+- **3D 图形：** 基于 Three.js 驱动，包含自定义着色器、泛光特效 (Bloom) 以及骨骼动画。
+- **仙侠主题：** 沉浸在一个充满修仙者、飞剑和法宝的修仙世界中。
+- **战斗系统：** 包含不同修仙者、生命值条和技能的实时战斗。
+- **技能与法球：** 收集各种法球（飞剑、加速、闪电、冲刺、土墙、治疗）来增强实力并解锁主动技能。
+- **音效：** 沉浸式的背景音乐和游戏音效。
 
-## Tech Stack
+## 技术栈
 
-- **Framework:** Vite
-- **Language:** TypeScript
-- **3D Library:** Three.js (including Post-processing, FBXLoader, GLTFLoader)
+- **构建工具：** Vite
+- **编程语言：** TypeScript
+- **3D 引擎：** Three.js (包含后处理、FBXLoader、GLTFLoader)
 
-## Getting Started
+## 快速开始
 
-### Prerequisites
+### 环境要求
 
-- Node.js (v18 or higher recommended)
+- Node.js (推荐 v18 或更高版本)
 
-### Installation
+### 安装运行
 
-1. Clone the repository:
+1. 克隆仓库：
    ```bash
    git clone https://github.com/moli-xia/xian.git
    cd xian
    ```
 
-2. Install dependencies:
+2. 安装依赖：
    ```bash
    npm install
    ```
 
-3. Start the development server:
+3. 启动开发服务器：
    ```bash
    npm run dev
    ```
 
-4. Build for production:
+4. 构建生产版本：
    ```bash
    npm run build
    ```
 
-## Controls
-*(Assuming standard WASD/Arrow keys for movement, space for action, etc. - Update as necessary)*
-- Move: `W` `A` `S` `D` / Arrow Keys
-- Skills: Number keys or mouse clicks (Depends on implementation)
+## 游戏控制
+- 移动：`W` `A` `S` `D` 或 方向键
+- 技能：数字键或鼠标点击释放技能
 
-## Assets
-The game uses various 3D models (`.fbx`, `.glb`) and textures/audio files located in the `src/assets` directory. All assets are configured to be loaded dynamically during gameplay.
+## 游戏资源
+游戏使用了多种 3D 模型 (`.fbx`, `.glb`) 以及贴图/音频文件，均存放在 `src/assets` 目录下。所有资源都已配置为在游戏过程中动态加载。
 
-## License
+## 开源协议
 
 MIT License
