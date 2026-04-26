@@ -1,4 +1,4 @@
-# 仙 (Xian)
+# 修仙竞技场
 
 一个基于 **TypeScript**、**Vite** 和 **Three.js** 构建的浏览器 3D 仙侠竞技场游戏。  
 玩家将驾驭飞行法器，在云雾缭绕的修仙战场中收集灵力水晶、强化刀阵、释放法术，并击败场上全部敌修，完成一场属于自己的“渡劫之战”。
@@ -12,6 +12,13 @@
 - 通过不断强化护体法器数量来提升正面对抗能力
 - 在敌我交锋时，通过走位、冲刺和法术改变战局
 - 在多名敌修与复杂场景中完成清场，最终获得胜利
+
+## 项目截图
+
+<img src="https://raw.githubusercontent.com/moli-xia/xian/master/demo1.png" alt="项目截图" style="max-width:200px">
+<br>
+<img src="https://raw.githubusercontent.com/moli-xia/xian/master/demo2.png" alt="项目截图" style="max-width:600px">
+<img src="https://raw.githubusercontent.com/moli-xia/xian/master/demo3.png" alt="项目截图" style="max-width:600px">
 
 ## 游戏玩法
 
